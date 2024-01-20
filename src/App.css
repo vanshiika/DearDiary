@@ -1,0 +1,26 @@
+.App {
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-color: #FDEDEC;
+  background-image: url(../src/assets/kisspng-drawing-wall-decal-cage-tree-5b097768cfe286.2544267615273470488515.png) ;
+  background-repeat: no-repeat;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: lightgray;
+  transition: 300ms;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
